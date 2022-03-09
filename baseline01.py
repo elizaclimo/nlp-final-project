@@ -1,3 +1,10 @@
+"""
+Extraction 
+
+highest scoring line from each verse using weighted sums
+
+"""
+
 import os
 def summarize(filename):
     vocabulary= {}
