@@ -70,7 +70,8 @@ def summarize(filename):
             line += " "
             line += word
         line += "."
-        summary += line
+        if line not in summary:
+            summary += line
 
     return summary 
         
